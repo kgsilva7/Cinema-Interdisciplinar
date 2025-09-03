@@ -85,7 +85,6 @@ CREATE TABLE `sala` (
 
 CREATE TABLE `sessao` (
   `Cod_Ses` int(11) NOT NULL,
-  `Ing_dis` int(11) NOT NULL,
   `Cod_Filme` int(11) NOT NULL,
   `Num_Sala` int(11) NOT NULL,
   `horario` datetime NOT NULL
